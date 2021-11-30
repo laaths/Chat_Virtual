@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPClienteSocket",
+            "request": "launch",
+            "mainClass": "TCP.TCPClienteSocket",
+            "projectName": "tcp_udp_f9345933"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPServerMultithread",
+            "request": "launch",
+            "mainClass": "TCP.TCPServerMultithread",
+            "projectName": "tcp_udp_f9345933"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPServerSocket",
+            "request": "launch",
+            "mainClass": "TCP.TCPServerSocket",
+            "projectName": "tcp_udp_f9345933"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPClient",
+            "request": "launch",
+            "mainClass": "UDP.UDPClient",
+            "projectName": "tcp_udp_f9345933"
+        },
+        {
+            "type": "java",
+            "name": "Launch UDPServer",
+            "request": "launch",
+            "mainClass": "UDP.UDPServer",
+            "projectName": "tcp_udp_f9345933"
+        }
+    ]
+}
