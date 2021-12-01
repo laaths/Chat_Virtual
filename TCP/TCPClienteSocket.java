@@ -13,7 +13,7 @@ public class TCPClienteSocket {
     public static void main(String[] args) {
         Socket socketCliente = null;
         try {
-            socketCliente = new Socket("localhost", 6789);
+            socketCliente = new Socket("localhost", 7896);
             System.out.println("Conectado ao Servidor!");
             DataInputStream dis = new DataInputStream(
                     socketCliente.getInputStream());
